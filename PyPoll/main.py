@@ -4,7 +4,7 @@ import csv
 import statistics
 
 # Designate path to the PyBank csv file 
-PollDataPath = os.path.join('Module3','Module 3 Challenge','python-challenge','PyPoll','Resources','election_data.csv')
+PollDataPath = os.path.join('..','python-challenge','PyPoll','Resources','election_data.csv')
 
 #Read the csv file
 with open(PollDataPath) as Voter_File:

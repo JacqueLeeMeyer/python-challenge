@@ -3,7 +3,7 @@ import os
 import csv
 
 # Designate path to the PyBank csv file 
-DataPath = os.path.join('Module3','Module 3 Challenge','python-challenge','PyBank','Resources','budget_data.csv')
+DataPath = os.path.join('..','python-challenge','PyBank','Resources','budget_data.csv')
 
 #Read the csv file
 with open(DataPath) as DataFile:
