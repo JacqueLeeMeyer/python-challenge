@@ -3,7 +3,7 @@ import os
 import csv
 
 # Designate path to the PyBank csv file 
-DataPath = os.path.join('..','python-challenge','PyBank','Resources','budget_data.csv')
+DataPath = os.path.join('Resources','budget_data.csv')
 
 #Read the csv file
 with open(DataPath) as DataFile:
@@ -72,7 +72,7 @@ with open(DataPath) as DataFile:
     print(f'Greatest Decrease in Profits: {Dec_Month} (${GreatestDec})')
 
 #Write Analysis to Text File
-    AnalysisPath = os.path.join('Module3','Module 3 Challenge','python-challenge','PyBank','Analysis','PyBank_Analysis_JMeyer.txt')
+    AnalysisPath = os.path.join('Analysis','PyBank_Analysis_JMeyer.txt')
 
     with open(AnalysisPath, 'w') as Text_File:
         print('Financial Analysis', file=Text_File)
