@@ -33,4 +33,4 @@ Initial Push to GitHub Repo
 ![GitBash4](https://github.com/JacqueLeeMeyer/python-challenge/assets/149394665/5681a3ff-dfcb-4ddc-afe5-eaeffef6601f)
 
 
-After final python results ran I saved the file path (within the pythin code) with the '..' in front of 'python-challenge',... for both the PyBank.py and PyPoll.py 
+Resubmitted 1/17/24: Changed Absolute Path(s) to Relative Path(s) 
